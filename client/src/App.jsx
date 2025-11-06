@@ -6,7 +6,7 @@ function App() {
 
   useEffect(() => {
 
-    fetch("http://localhost:5000/get-new")
+    fetch("http://13.50.251.70:5000/get-new")
     .then((res) => {
       console.log(res)
       if(!res.ok){
