@@ -12,7 +12,7 @@ services:
     build: ./client
     container_name: frontend-client
     ports:
-      - "5174:80"
+      - "5174:81"
     networks:
       - fullstack-net
     depends_on:
