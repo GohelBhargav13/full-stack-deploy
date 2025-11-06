@@ -9,7 +9,7 @@ app.use(cors({
         "http://localhost:5173",
         "http://localhost:5174",
         "http://localhost:3000",
-        "http://13.50.251.70:5174"
+        "http://13.53.201.56:5174"
     ],
     methods:["GET","POST"],
     credentials:true
